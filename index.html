@@ -83,7 +83,7 @@
                   name="password_two"
                   type="password"
                   pattern="^\S{6,}$"
-                  onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Please enter the same Password as above' : '');"
+                  onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Password does not match' : '');"
                   placeholder="Verify Password"
                   required
                 />

@@ -18,7 +18,7 @@ body {
 
 .container {
   display: flex;
-  height: 100%;
+  min-height: 100%;
 }
 
 .hero-container {
@@ -81,7 +81,7 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 670px;
-  height: 360px;
+  min-height: 360px;
 }
 
 #sign-up-form h2 {
@@ -137,4 +137,15 @@ body {
 
 .login-section p {
   font-family: "Chakra Petch", sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row label {
+    width: 100%;
+    margin-top: 10px;
+  }
 }
