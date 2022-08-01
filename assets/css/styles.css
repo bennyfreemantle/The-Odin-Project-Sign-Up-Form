@@ -28,7 +28,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  background-image: url(../assets/hero-image.jpg);
+  background-image: url(../hero-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
