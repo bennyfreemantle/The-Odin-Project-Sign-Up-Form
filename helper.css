@@ -1,0 +1,9 @@
+.italic {
+  font-style: italic;
+}
+
+a,
+a:visited {
+  color: rgb(213, 10, 103);
+  text-decoration: none;
+}

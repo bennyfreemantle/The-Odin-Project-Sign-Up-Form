@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,700;1,300&family=Rajdhani&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rajdhani", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.hero-container {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background-image: url(./hero-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hero-title {
+  margin-top: 200px;
+  background-color: rgba(213, 10, 103, 0.2);
+  width: 100%;
+}
+
+.hero-title h1 {
+  margin: 20px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: rgba(246, 247, 252, 0.8);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero-footer p {
+  color: rgba(246, 247, 252, 0.8);
+}
+
+.content-container {
+  flex: 5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(246, 247, 252, 0.8);
+}
+
+.content-header {
+  padding: 2em;
+  width: 80%;
+  max-width: 670px;
+}
+
+.form-container {
+  padding: 2em;
+  margin-top: 40px;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 0px 0px 20px -10px rgba(158, 158, 158, 1);
+  -moz-box-shadow: 0px 0px 20px -10px rgba(158, 158, 158, 1);
+  box-shadow: 0px 0px 20px -10px rgba(158, 158, 158, 1);
+}
+
+#sign-up-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 670px;
+}
+
+#sign-up-form h2 {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+}
+
+.form-row {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 0.5em;
+  gap: 1em;
+}
+
+.form-row label {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-family: "Chakra Petch", sans-serif;
+  color: rgb(213, 10, 103);
+}
+
+.form-row input {
+  height: 40px;
+  padding: 0.5em;
+  font-size: 16px;
+  font-family: "Rajdhani", sans-serif;
+  outline-color: rgb(2, 104, 186);
+}
+
+.account-creation-button {
+  padding: 2em;
+}
+
+.account-creation-button button {
+  padding: 1em;
+  width: 200px;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(2, 104, 186);
+  color: rgba(246, 247, 252);
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+}
+
+.login-section {
+  padding: 0 2em 0 2em;
+}
+
+.login-section p {
+  font-family: "Chakra Petch", sans-serif;
+}

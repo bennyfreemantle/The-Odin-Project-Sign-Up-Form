@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="helper.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign-up Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero-container">
+        <div class="hero-title">
+          <h1>Cyber Life</h1>
+        </div>
+        <div class="hero-footer">
+          <p>
+            Photo by
+            <a
+              class="link"
+              target="_blank"
+              href="https://unsplash.com/photos/psdV2Rl-GvU"
+              >Cheng Feng</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="content-container">
+        <div class="content-header">
+          <h2>
+            This is not a real online service! you know you need something like
+            this in your life to help you realize your deepest dreams. Sign-up
+            <span class="italic">now</span> to get started.
+          </h2>
+          <h2>You <span class="italic">know</span> you want to.</h2>
+        </div>
+
+        <div class="form-container">
+          <form id="sign-up-form">
+            <h2>Let's do this!</h2>
+
+            <div class="form-row">
+              <label>
+                First name
+                <input type="text" placeholder="John" required />
+              </label>
+              <label>
+                Last name
+                <input type="text" placeholder="Doe" required />
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Email
+                <input type="email" placeholder="johndoe@email.com" required />
+              </label>
+              <label>
+                Phone Number
+                <input type="text" required />
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Password
+                <input type="password" required />
+              </label>
+              <label>
+                Confirm Password
+                <input type="password" required />
+              </label>
+            </div>
+          </form>
+        </div>
+
+        <div class="account-creation-button">
+          <button type="submit" form="sign-up-form">Create Account</button>
+        </div>
+
+        <div class="login-section">
+          <p>Already have an account ? <a href="#">Log in</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
