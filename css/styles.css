@@ -113,24 +113,6 @@ body {
   outline-color: rgb(2, 104, 186);
 }
 
-.password-error {
-  margin: 0 0 0 auto;
-  display: flex;
-  justify-content: flex-end;
-  width: 45%;
-}
-
-.password-error p {
-  width: 100%;
-  font-size: 18px;
-  text-align: center;
-  color: rgb(213, 10, 103);
-}
-
-.hidden {
-  display: none;
-}
-
 .account-creation-button {
   padding: 2em;
 }
